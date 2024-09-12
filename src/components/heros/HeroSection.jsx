@@ -4,8 +4,8 @@ import Dots from '@/assets/img/dots.png'
 
 export const HeroSection = () => {
     return (
-        <main className='bg-primaryBackground pb-10'>
-            <div className='flex flex-row justify-between mx-32 '>
+        <main className='bg-primaryBackground'>
+            <div className='flex flex-row justify-between mx-32 h-screen'>
 
                 {/* Left Section */}
                 <div className='max-w-[650px]'>
@@ -15,14 +15,14 @@ export const HeroSection = () => {
                 </div>
 
                 {/* Right Photo */}
-                <div className='relative '>
+                <div className='relative h-fit'>
                     <div className='z-50'>
                         <img src={HeadPhoto} />
                     </div>
                     <div className='absolute right-5 top-1/4 z-10'>
                         <img src={Dots} width={100} />
                     </div>
-                    <div className='absolute left-5 bottom-1/4 z-10'>
+                    <div className='absolute left-5 bottom-20 z-10'>
                         <img src={Dots} width={100} />
                     </div>
                 </div>

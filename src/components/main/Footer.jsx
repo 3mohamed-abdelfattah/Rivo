@@ -1,7 +1,7 @@
 import React from 'react'
 import { Facebook, Instagram, RivoLogo, Twitter } from '../../utils/icons.util'
 
-export default function Footer() {
+export const Footer = () => {
     return (
         <footer className='bg-secondaryBackground'>
             <div className='flex justify-evenly p-10 items-center'>
@@ -41,7 +41,7 @@ export default function Footer() {
 
             </div>
             <span className='flex flex-row p-5 justify-center items-center gap-5'>
-                <hr className='border-2 border-white w-3/4' />
+                <hr className='border-2 border-[#A3F3BE] w-3/4' />
                 <span className='text-white'>Terms</span>
                 <span className='text-white'>Privacy</span>
                 <span className='text-white'>Cookies</span>
