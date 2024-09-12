@@ -65,3 +65,53 @@ export const Instagram = () => (
         <path d="M10.16 0.280029C4.71271 0.280029 0.280029 4.71271 0.280029 10.16V23.84C0.280029 29.2873 4.71271 33.72 10.16 33.72H23.84C29.2873 33.72 33.72 29.2873 33.72 23.84V10.16C33.72 4.71271 29.2873 0.280029 23.84 0.280029H10.16ZM10.16 1.80003H23.84C28.4658 1.80003 32.2 5.5343 32.2 10.16V23.84C32.2 28.4658 28.4658 32.2 23.84 32.2H10.16C5.5343 32.2 1.80003 28.4658 1.80003 23.84V10.16C1.80003 5.5343 5.5343 1.80003 10.16 1.80003ZM26.12 6.36003C25.2806 6.36003 24.6 7.04056 24.6 7.88003C24.6 8.7195 25.2806 9.40003 26.12 9.40003C26.9595 9.40003 27.64 8.7195 27.64 7.88003C27.64 7.04056 26.9595 6.36003 26.12 6.36003ZM17 8.64003C12.3919 8.64003 8.64003 12.3919 8.64003 17C8.64003 21.6081 12.3919 25.36 17 25.36C21.6081 25.36 25.36 21.6081 25.36 17C25.36 12.3919 21.6081 8.64003 17 8.64003ZM17 10.16C20.7867 10.16 23.84 13.2134 23.84 17C23.84 20.7867 20.7867 23.84 17 23.84C13.2134 23.84 10.16 20.7867 10.16 17C10.16 13.2134 13.2134 10.16 17 10.16Z" fill="#C2EFD4" />
     </svg>
 );
+
+export const ToRight = () => (
+    <svg width="142" height="142" viewBox="0 0 142 142" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g filter="url(#filter0_d_1_27)">
+            <rect x="51" y="44" width="40" height="40" rx="3" fill="#C2EFD4" />
+            <path d="M67 56.9644L74.0711 64.0354" stroke="#224F34" stroke-width="2" stroke-linecap="round" />
+            <path d="M67 71.0356L74.0711 63.9646" stroke="#224F34" stroke-width="2" stroke-linecap="round" />
+        </g>
+        <defs>
+            <filter id="filter0_d_1_27" x="0" y="0" width="142" height="142" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                <feOffset dy="7" />
+                <feGaussianBlur stdDeviation="25.5" />
+                <feComposite in2="hardAlpha" operator="out" />
+                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" />
+                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_27" />
+                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_27" result="shape" />
+            </filter>
+        </defs>
+    </svg>
+);
+
+export const ToLeft = () => (
+    <svg width="142" height="142" viewBox="0 0 142 142" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g filter="url(#filter0_d_1_32)">
+            <rect x="51" y="44" width="40" height="40" rx="3" fill="white" />
+            <path d="M74.0711 56.9644L67 64.0354" stroke="#224F34" stroke-width="2" stroke-linecap="round" />
+            <path d="M74.0711 71.0356L67 63.9646" stroke="#224F34" stroke-width="2" stroke-linecap="round" />
+        </g>
+        <defs>
+            <filter id="filter0_d_1_32" x="0" y="0" width="142" height="142" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                <feOffset dy="7" />
+                <feGaussianBlur stdDeviation="25.5" />
+                <feComposite in2="hardAlpha" operator="out" />
+                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" />
+                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_32" />
+                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_32" result="shape" />
+            </filter>
+        </defs>
+    </svg>
+);
+
+export const Quote = () => (
+    <svg width="28" height="69" viewBox="0 0 28 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M7.55859 22.0781H7.96875C9.08203 22.0781 10.0781 22.5078 10.957 23.3672C11.8555 24.207 12.3047 25.2617 12.3047 26.5312C12.3047 27.7812 11.8555 28.8164 10.957 29.6367C10.0781 30.4375 8.98438 30.8379 7.67578 30.8379C6.25 30.8379 5.05859 30.2715 4.10156 29.1387C3.16406 27.9863 2.69531 26.3555 2.69531 24.2461C2.69531 22.3125 3.10547 20.5059 3.92578 18.8262C4.76562 17.127 5.78125 15.7891 6.97266 14.8125C8.18359 13.8164 9.25781 13.3184 10.1953 13.3184C10.8203 13.3184 11.3086 13.5039 11.6602 13.875C12.0117 14.2461 12.1875 14.7246 12.1875 15.3105C12.1875 16.1699 11.8066 16.8047 11.0449 17.2148C10.0098 17.7812 9.18945 18.4453 8.58398 19.207C7.97852 19.9688 7.63672 20.9258 7.55859 22.0781ZM20.5078 22.0781H20.8887C21.9824 22.0781 22.9688 22.5078 23.8477 23.3672C24.7461 24.207 25.1953 25.2617 25.1953 26.5312C25.1953 27.7617 24.7461 28.7969 23.8477 29.6367C22.9688 30.4766 21.875 30.8965 20.5664 30.8965C19.1211 30.8965 17.9297 30.3105 16.9922 29.1387C16.0547 27.9668 15.5859 26.3359 15.5859 24.2461C15.5859 22.7422 15.8301 21.3262 16.3184 19.998C16.8066 18.6699 17.4316 17.5176 18.1934 16.541C18.9746 15.5449 19.8047 14.7637 20.6836 14.1973C21.582 13.6113 22.3828 13.3184 23.0859 13.3184C23.7305 13.3184 24.2188 13.5039 24.5508 13.875C24.9023 14.2266 25.0781 14.7051 25.0781 15.3105C25.0781 16.1895 24.6973 16.8242 23.9355 17.2148C22.8613 17.8203 22.0508 18.4941 21.5039 19.2363C20.957 19.959 20.625 20.9062 20.5078 22.0781Z" fill="#224F34" />
+    </svg>
+);

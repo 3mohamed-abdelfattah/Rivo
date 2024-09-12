@@ -4,7 +4,7 @@ import { RivoLogo } from '../../utils/icons.util'
 
 export const Header = () => {
     return (
-        <header>
+        <header className='bg-primaryBackground'>
             <div className='flex justify-between items-center py-14 px-28'>
 
                 {/* Logo */}
@@ -14,7 +14,7 @@ export const Header = () => {
 
                 {/* Navigation */}
                 <div>
-                    <ul className='flex flex-row text-xl gap-12 font-medium'>
+                    <ul className='flex text-primaryText flex-row text-xl gap-12 font-medium'>
                         <li>HOME</li>
                         <li>SHOP</li>
                         <li>FEATURES</li>

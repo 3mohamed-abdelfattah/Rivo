@@ -4,7 +4,7 @@ import Dots from '@/assets/img/dots.png'
 
 export const HeroSection = () => {
     return (
-        <main>
+        <main className='bg-primaryBackground pb-5'>
             <div className='flex flex-row justify-between mx-32'>
 
                 {/* Left Section */}

@@ -7,10 +7,10 @@ import Product3 from '@/assets/img/products/forU3.png'
 
 export const ForYou = () => {
     return (
-        <main className='mt-16'>
+        <main className='my-16'>
             <div className='flex flex-col justify-center items-center'>
                 <p className='text-primaryText text-6xl font-bold font-[RobotoSlab] p-5'>Designer Clothes For You</p>
-                <p className='text-primaryText text-xl font-medium p-5'>Immerse yourself in the world of luxury fashion with our meticulously crafted designer clothes!</p>
+                <p className='text-primaryText text-xl font-medium p-5 mb-8'>Immerse yourself in the world of luxury fashion with our meticulously crafted designer clothes!</p>
 
                 {/* Products */}
                 <div className='flex flex-row justify-evenly gap-10'>

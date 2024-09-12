@@ -1,17 +1,16 @@
 import React from 'react'
-import { Header, HeroSection, BestSell, OurProduct, ForYou, Footer } from '@/components'
+import { Header, HeroSection, BestSell, OurProduct, ForYou, Footer, FeedBack } from '@/components'
 
 export const HomePage = () => {
 
     return (
         <main>
-            <div className=' bg-primaryBackground h-screen'>
-                <Header />
-                <HeroSection />
-            </div>
+            <Header />
+            <HeroSection />
             <BestSell />
             <OurProduct />
             <ForYou />
+            <FeedBack />
             <Footer />
         </main>
     )
