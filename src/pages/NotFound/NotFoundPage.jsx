@@ -7,7 +7,7 @@ export const NotFoundPage = () => {
 
     return (
         <main>
-            <Header />
+            <Header value='BACK TO HOME →' />
             <div className='flex flex-col justify-center items-center gap-10 h-screen'>
                 <p className='text-primaryText text-7xl'>Error 404</p>
                 <p className='text-primaryText text-4xl'>Invalid URL...</p>

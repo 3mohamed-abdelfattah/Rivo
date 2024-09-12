@@ -1,5 +1,6 @@
 import React from 'react'
 import { CartIcon, RivoLogo } from '@/utils/icons.util'
+import { Link } from 'react-router-dom'
 
 export const Header = (props) => {
     return (
@@ -24,7 +25,9 @@ export const Header = (props) => {
                 {/* Login & Cart */}
                 <div className='flex flex-row items-center gap-14'>
                     <CartIcon />
-                    <button className='border-2 border-primaryText px-11 py-3 text-xl hover:bg-primaryText hover:text-white rounded'>{props.value}</button>
+                    <Link to='/login'>
+                        <button className='border-2 border-primaryText px-11 py-3 text-xl hover:bg-primaryText hover:text-white rounded'>{props.value}</button>
+                    </Link>
                 </div>
 
             </div>
