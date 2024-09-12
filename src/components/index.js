@@ -1,1 +1,5 @@
-export * from './headers/Header.jsx'
+export * from './main/Header.jsx'
+export * from './best_sell/BestSell.jsx'
+export * from './heros/HeroSection.jsx'
+export * from './main/Header.jsx'
+export * from './main/Footer.jsx'
