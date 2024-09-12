@@ -34,9 +34,9 @@ export const LoginPage = () => {
                         LOGIN →
                     </button>
                 </form>
-                <p>Already have an account?
-                    <Link className='px-2 text-primaryText font-bold underline' to='sign_up'>
-                        Sign in
+                <p>Didn't have an account?
+                    <Link className='px-2 text-primaryText font-bold underline' to='/sign_up'>
+                        Register
                     </Link>
                 </p>
             </div>
