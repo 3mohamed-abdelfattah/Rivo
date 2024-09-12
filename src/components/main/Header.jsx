@@ -4,7 +4,7 @@ import { RivoLogo } from '../../utils/icons.util'
 
 export const Header = () => {
     return (
-        <header className=' bg-primaryBackground'>
+        <header>
             <div className='flex justify-between items-center py-14 px-28'>
 
                 {/* Logo */}

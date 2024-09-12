@@ -4,8 +4,8 @@ import Dots from '@/assets/img/dots.png'
 
 export const HeroSection = () => {
     return (
-        <main className='bg-primaryBackground'>
-            <div className='flex flex-row justify-between mx-32 h-screen'>
+        <main>
+            <div className='flex flex-row justify-between mx-32'>
 
                 {/* Left Section */}
                 <div className='max-w-[650px]'>

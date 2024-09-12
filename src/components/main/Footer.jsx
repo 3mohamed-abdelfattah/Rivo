@@ -3,7 +3,7 @@ import { Facebook, Instagram, RivoLogo, Twitter } from '../../utils/icons.util'
 
 export const Footer = () => {
     return (
-        <footer className='bg-secondaryBackground'>
+        <footer className='flex flex-col justify-between bg-secondaryBackground p-5 gap-12'>
             <div className='flex justify-evenly p-10 items-center'>
 
                 <div className='flex flex-col gap-7 text-white'>
@@ -41,7 +41,7 @@ export const Footer = () => {
 
             </div>
             <span className='flex flex-row p-5 justify-center items-center gap-5'>
-                <hr className='border-2 border-[#A3F3BE] w-3/4' />
+                <hr className='border-1 border-[#A3F3BE] w-3/4' />
                 <span className='text-white'>Terms</span>
                 <span className='text-white'>Privacy</span>
                 <span className='text-white'>Cookies</span>

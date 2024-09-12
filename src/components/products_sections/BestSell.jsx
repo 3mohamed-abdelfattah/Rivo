@@ -10,8 +10,8 @@ export const BestSell = () => {
     return (
         <main className='mt-16'>
             <div className='flex flex-col justify-center items-center'>
-                <p className='text-primaryText text-6xl font-bold font-[RobotoSlab] p-5'>Best Selling</p>
-                <p className='text-primaryText text-2xl font-medium p-5'>Get in on the trend with our curated selection of best-selling styles.</p>
+                <p className='text-primaryText text-6xl font-bold font-[RobotoSlab] pt-5'>Best Selling</p>
+                <p className='text-primaryText text-xl font-medium p-16'>Get in on the trend with our curated selection of best-selling styles.</p>
 
                 {/* Products */}
                 <div className='flex flex-row justify-evenly gap-10'>
