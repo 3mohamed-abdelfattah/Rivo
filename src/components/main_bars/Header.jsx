@@ -15,8 +15,12 @@ export const Header = (props) => {
                 {/* Navigation */}
                 <div>
                     <ul className='flex text-primaryText flex-row text-xl gap-12 font-medium'>
-                        <li className='hover:scale-110 hover:text-white cursor-pointer'>HOME</li>
-                        <li className='hover:scale-110 hover:text-white cursor-pointer'>SHOP</li>
+                        <Link to='/'>
+                            <li className='hover:scale-110 hover:text-white cursor-pointer'>HOME</li>
+                        </Link>
+                        <Link to='/shop'>
+                            <li className='hover:scale-110 hover:text-white cursor-pointer'>SHOP</li>
+                        </Link>
                         <li className='hover:scale-110 hover:text-white cursor-pointer'>FEATURES</li>
                         <li className='hover:scale-110 hover:text-white cursor-pointer'>CONTACT</li>
                     </ul>
@@ -28,7 +32,7 @@ export const Header = (props) => {
                         <CartIcon />
                     </span>
                     <Link to='/login'>
-                        <button className='border-2 border-primaryText px-11 py-3 text-xl hover:bg-primaryText hover:text-white rounded'>{props.value}</button>
+                        <button className='border-2 border-primaryText px-11 py-3 text-xl hover:bg-primaryText hover:text-white rounded'>{props.value ? props.value : "LOGIN"}</button>
                     </Link>
                 </div>
 

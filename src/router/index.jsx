@@ -1,7 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 // Pages
-import { HomePage, DashBoard, LoginPage, NotFoundPage, SignUpPage } from "@/pages";
+import { HomePage, DashBoard, LoginPage, NotFoundPage, SignUpPage, ShopPage } from "@/pages";
 
 const router = createBrowserRouter([
     {
@@ -19,6 +19,10 @@ const router = createBrowserRouter([
     {
         path: "/seller_dashboard",
         element: <DashBoard />,
+    },
+    {
+        path: "/shop",
+        element: <ShopPage />,
     },
     {
         path: "*",
