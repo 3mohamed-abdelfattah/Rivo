@@ -3,7 +3,7 @@ import { Header, Footer } from '@/components';
 import { Star } from '@/utils/icons.util';
 
 export const ShopPage = () => {
-    const [products, setProducts] = useState([]);
+    const [products, setProducts] = useState([])
 
     useEffect(() => {
         fetch('https://fakestoreapi.com/products')

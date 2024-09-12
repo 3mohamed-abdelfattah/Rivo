@@ -13,8 +13,8 @@ export const Header = (props) => {
                 </div>
 
                 {/* Navigation */}
-                <div>
-                    <ul className='flex text-primaryText flex-row text-xl gap-12 font-medium'>
+                <div className='hidden lg:contents'>
+                    <ul className='flex text-primaryText flex-row text-base xl:text-xl gap-12 font-medium'>
                         <Link to='/'>
                             <li className='hover:scale-110 hover:text-white cursor-pointer'>HOME</li>
                         </Link>
@@ -27,7 +27,7 @@ export const Header = (props) => {
                 </div>
 
                 {/* Login & Cart */}
-                <div className='flex flex-row items-center gap-14'>
+                <div className='flex flex-row items-center md:gap-14'>
                     <span className='hover:scale-110 cursor-pointer'>
                         <CartIcon />
                     </span>

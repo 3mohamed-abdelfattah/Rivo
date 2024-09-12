@@ -4,25 +4,25 @@ import Dots from '@/assets/img/dots.png'
 
 export const HeroSection = () => {
     return (
-        <main className='pb-5'>
-            <div className='flex flex-row justify-around'>
+        <main>
+            <div className='flex flex-row gap-5 md:gap-10 justify-around mx-5 md:mx-10'>
 
                 {/* Left Section */}
-                <div className='max-w-[650px]'>
-                    <p className='font-bold text-[5rem] text-primaryText font-[Rufina]'>Discover and Find Your Own Fashion!</p>
-                    <p className='font-medium text-2xl text-secondaryText my-16 leading-10'>Explore our curated collection of stylish clothing and accessories tailored to your unique taste.</p>
-                    <button className='bg-secondaryBackground px-10 py-4 text-xl text-white hover:bg-secondaryText hover: rounded shadow-2xl'>EXPLORE NOW</button>
+                <div className='flex flex-col justify-between w-fit'>
+                    <p className='font-bold text-3xl md:text-6xl xl:text-[5rem] text-primaryText font-[Rufina]'>Discover and Find Your Own Fashion!</p>
+                    <p className='font-medium text-sm md:text-2xl xl:text-2xl text-secondaryText leading-10'>Explore our curated collection of stylish clothing and accessories tailored to your unique taste.</p>
+                    <button className='max-w-56 md:max-w-72 bg-secondaryBackground px-10 py-4 text-xl text-white hover:bg-secondaryText hover: rounded shadow-2xl'>EXPLORE NOW</button>
                 </div>
 
                 {/* Right Photo */}
                 <div className='relative h-fit'>
                     <div>
-                        <img src={HeadPhoto} style={{ width: '85%' }} />
+                        <img src={HeadPhoto} className='' />
                     </div>
-                    <div className='absolute right-24 top-1/4 z-10'>
+                    <div className='absolute right-0 top-1/4'>
                         <img src={Dots} width={100} />
                     </div>
-                    <div className='absolute left-5 bottom-20 z-10'>
+                    <div className='absolute left-0 bottom-20'>
                         <img src={Dots} width={100} />
                     </div>
                 </div>

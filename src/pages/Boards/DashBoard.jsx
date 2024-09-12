@@ -8,7 +8,7 @@ export const DashBoard = () => {
         <main>
             <Header value='LOGOUT' />
             <div className='flex flex-col justify-center items-center gap-10 h-screen'>
-                <p className='text-primaryText text-7xl'>Seller Dashboard</p>
+                <p className='text-primaryText text-7xl text-center'>Seller Dashboard</p>
                 <p className='text-primaryText text-4xl'>Coming Soon...</p>
                 <button
                     onClick={() => navigate("/")}
