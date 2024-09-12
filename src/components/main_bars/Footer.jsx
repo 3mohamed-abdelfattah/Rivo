@@ -9,23 +9,23 @@ export const Footer = () => {
                 <div className='flex flex-col gap-7 text-white'>
                     <RivoLogo />
                     <p>Social Media</p>
-                    <span className='flex gap-8'><Facebook /> <Twitter /> <Instagram /></span>
+                    <span className='flex gap-8 cursor-pointer'><Facebook /> <Twitter /> <Instagram /></span>
                 </div>
 
                 <div className='flex flex-col gap-3'>
                     <p className='text-xl text-white font-medium font-[RobotoSlab]'>SHOP</p>
-                    <p className='text-xl text-[#C2EFD4]'>Products</p>
-                    <p className='text-xl text-[#C2EFD4]'>Overview</p>
-                    <p className='text-xl text-[#C2EFD4]'>Pricing</p>
-                    <p className='text-xl text-[#C2EFD4]'>Releases</p>
+                    <p className='text-xl hover:scale-110 cursor-pointer hover:text-white text-[#C2EFD4]'>Products</p>
+                    <p className='text-xl hover:scale-110 cursor-pointer hover:text-white text-[#C2EFD4]'>Overview</p>
+                    <p className='text-xl hover:scale-110 cursor-pointer hover:text-white text-[#C2EFD4]'>Pricing</p>
+                    <p className='text-xl hover:scale-110 cursor-pointer hover:text-white text-[#C2EFD4]'>Releases</p>
                 </div>
 
                 <div className='flex flex-col gap-3'>
                     <p className='text-xl text-white font-medium font-[RobotoSlab]'>COMPANY</p>
-                    <p className='text-xl text-[#C2EFD4]'>About us</p>
-                    <p className='text-xl text-[#C2EFD4]'>Contact</p>
-                    <p className='text-xl text-[#C2EFD4]'>News</p>
-                    <p className='text-xl text-[#C2EFD4]'>Support</p>
+                    <p className='text-xl hover:scale-110 cursor-pointer hover:text-white text-[#C2EFD4]'>About us</p>
+                    <p className='text-xl hover:scale-110 cursor-pointer hover:text-white text-[#C2EFD4]'>Contact</p>
+                    <p className='text-xl hover:scale-110 cursor-pointer hover:text-white text-[#C2EFD4]'>News</p>
+                    <p className='text-xl hover:scale-110 cursor-pointer hover:text-white text-[#C2EFD4]'>Support</p>
                 </div>
 
                 <div className='flex flex-col gap-3'>
@@ -42,9 +42,9 @@ export const Footer = () => {
             </div>
             <span className='flex flex-row p-5 justify-center items-center gap-5'>
                 <hr className='border-1 border-[#A3F3BE] w-3/4' />
-                <span className='text-white'>Terms</span>
-                <span className='text-white'>Privacy</span>
-                <span className='text-white'>Cookies</span>
+                <span className='text-white hover:scale-110 cursor-pointer hover:text-secondaryText'>Terms</span>
+                <span className='text-white hover:scale-110 cursor-pointer hover:text-secondaryText'>Privacy</span>
+                <span className='text-white hover:scale-110 cursor-pointer hover:text-secondaryText'>Cookies</span>
             </span>
         </footer>
     )
