@@ -48,6 +48,8 @@ export const SignUpPage = () => {
             });
 
             if (response.ok) {
+                const result = await response.json();
+                localStorage.setItem('userId', result.id);
                 if (data.isSeller) {
                     navigate('/seller_dashboard');
                 } else {
@@ -56,7 +58,7 @@ export const SignUpPage = () => {
             } else {
                 setError({
                     ...error,
-                    errorUserName: 'Failed',
+                    errorUserName: 'Failed to register',
                 });
             }
         } catch (error) {
@@ -86,7 +88,7 @@ export const SignUpPage = () => {
 
     return (
         <main>
-            <Header value='LOGIN' />
+            <Header value='REGISTER' />
             <div className='flex flex-col justify-center items-center gap-20 my-24'>
                 <div className='flex flex-col gap-4 text-center'>
                     <p className='text-primaryText text-5xl'>Welcome To Rivo!</p>

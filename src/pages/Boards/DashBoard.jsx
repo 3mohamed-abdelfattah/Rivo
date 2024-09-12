@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header, Footer } from '@/components';
+import { Header, Footer, LogoutButton } from '@/components';
 import { useNavigate } from 'react-router-dom';
 
 export const DashBoard = () => {
@@ -16,6 +16,7 @@ export const DashBoard = () => {
                 >
                     BACK TO HOME →
                 </button>
+                <LogoutButton />
             </div>
             <Footer />
         </main>
