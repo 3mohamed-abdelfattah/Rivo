@@ -1,7 +1,7 @@
 import React from 'react'
 import { CartIcon, RivoLogo } from '@/utils/icons.util'
 
-export const Header = () => {
+export const Header = (props) => {
     return (
         <header className='bg-primaryBackground'>
             <div className='flex justify-between items-center py-14 px-28'>
@@ -24,7 +24,7 @@ export const Header = () => {
                 {/* Login & Cart */}
                 <div className='flex flex-row items-center gap-14'>
                     <CartIcon />
-                    <button className='border-2 border-primaryText px-11 py-3 text-xl hover:bg-primaryText hover:text-white rounded'>LOGIN</button>
+                    <button className='border-2 border-primaryText px-11 py-3 text-xl hover:bg-primaryText hover:text-white rounded'>{props.value}</button>
                 </div>
 
             </div>

@@ -6,7 +6,7 @@ export const HomePage = () => {
     return (
         <main>
             <section className='flex flex-col justify-evenly bg-primaryBackground h-screen'>
-                <Header />
+                <Header value='LOGIN' />
                 <HeroSection />
             </section>
             <BestSell />

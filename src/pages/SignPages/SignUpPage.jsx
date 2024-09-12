@@ -7,5 +7,5 @@ export const SignUpPage = () => {
             <Header />
             <Footer />
         </main>
-            )
+    )
 }
