@@ -1,5 +1,5 @@
 import React from 'react'
-import { Facebook, Instagram, RivoLogo, Twitter } from '../../utils/icons.util'
+import { Facebook, Instagram, RivoLogo, Twitter } from '@/utils/icons.util'
 
 export const Footer = () => {
     return (

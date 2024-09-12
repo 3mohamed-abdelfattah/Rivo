@@ -5,8 +5,10 @@ export const HomePage = () => {
 
     return (
         <main>
-            <Header />
-            <HeroSection />
+            <section className='flex flex-col justify-evenly bg-primaryBackground h-screen'>
+                <Header />
+                <HeroSection />
+            </section>
             <BestSell />
             <OurProduct />
             <ForYou />

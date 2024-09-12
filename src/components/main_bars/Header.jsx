@@ -1,6 +1,5 @@
 import React from 'react'
-import { CartIcon } from '@/utils/icons.util'
-import { RivoLogo } from '../../utils/icons.util'
+import { CartIcon, RivoLogo } from '@/utils/icons.util'
 
 export const Header = () => {
     return (
