@@ -1,5 +1,6 @@
 import React from 'react'
 import { Header, HeroSection, BestSell, OurProduct, Footer } from '@/components'
+import { ForYou } from '../../components'
 
 export const HomePage = () => {
 
@@ -9,6 +10,7 @@ export const HomePage = () => {
             <HeroSection />
             <BestSell />
             <OurProduct />
+            <ForYou />
             <Footer />
         </main>
     )
