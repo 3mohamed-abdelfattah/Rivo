@@ -12,23 +12,42 @@ export const Footer = () => {
                     <span className='flex gap-8 cursor-pointer'><Facebook /> <Twitter /> <Instagram /></span>
                 </div>
 
-                <div className='flex flex-col gap-3'>
-                    <p className='text-base lg:text-xl text-white font-medium font-[RobotoSlab]'>SHOP</p>
-                    <p className='text-base lg:text-xl hover:scale-110 cursor-pointer hover:text-white text-[#C2EFD4]'>Products</p>
-                    <p className='text-base lg:text-xl hover:scale-110 cursor-pointer hover:text-white text-[#C2EFD4]'>Overview</p>
-                    <p className='text-base lg:text-xl hover:scale-110 cursor-pointer hover:text-white text-[#C2EFD4]'>Pricing</p>
-                    <p className='text-base lg:text-xl hover:scale-110 cursor-pointer hover:text-white text-[#C2EFD4]'>Releases</p>
-                </div>
+                <span className='flex flex-col gap-10 w-full'>
+                    <div className='flex md:hidden flex-col gap-4 text-white'>
+                        <RivoLogo />
+                        <p>Social Media</p>
+                        <span className='flex gap-8 cursor-pointer'><Facebook /> <Twitter /> <Instagram /></span>
+                    </div>
+                    <span className='flex flex-row justify-between sm:justify-evenly'>
+                        <div className='flex flex-col gap-3'>
+                            <p className='text-base lg:text-xl text-white font-medium font-[RobotoSlab]'>SHOP</p>
+                            <p className='text-base lg:text-xl hover:scale-110 cursor-pointer hover:text-white text-[#C2EFD4]'>Products</p>
+                            <p className='text-base lg:text-xl hover:scale-110 cursor-pointer hover:text-white text-[#C2EFD4]'>Overview</p>
+                            <p className='text-base lg:text-xl hover:scale-110 cursor-pointer hover:text-white text-[#C2EFD4]'>Pricing</p>
+                            <p className='text-base lg:text-xl hover:scale-110 cursor-pointer hover:text-white text-[#C2EFD4]'>Releases</p>
+                        </div>
 
-                <div className='flex flex-col gap-3'>
-                    <p className='text-base lg:text-xl text-white font-medium font-[RobotoSlab]'>COMPANY</p>
-                    <p className='text-base lg:text-xl hover:scale-110 cursor-pointer hover:text-white text-[#C2EFD4]'>About us</p>
-                    <p className='text-base lg:text-xl hover:scale-110 cursor-pointer hover:text-white text-[#C2EFD4]'>Contact</p>
-                    <p className='text-base lg:text-xl hover:scale-110 cursor-pointer hover:text-white text-[#C2EFD4]'>News</p>
-                    <p className='text-base lg:text-xl hover:scale-110 cursor-pointer hover:text-white text-[#C2EFD4]'>Support</p>
-                </div>
+                        <div className='flex flex-col gap-3'>
+                            <p className='text-base lg:text-xl text-white font-medium font-[RobotoSlab]'>COMPANY</p>
+                            <p className='text-base lg:text-xl hover:scale-110 cursor-pointer hover:text-white text-[#C2EFD4]'>About us</p>
+                            <p className='text-base lg:text-xl hover:scale-110 cursor-pointer hover:text-white text-[#C2EFD4]'>Contact</p>
+                            <p className='text-base lg:text-xl hover:scale-110 cursor-pointer hover:text-white text-[#C2EFD4]'>News</p>
+                            <p className='text-base lg:text-xl hover:scale-110 cursor-pointer hover:text-white text-[#C2EFD4]'>Support</p>
+                        </div>
+                    </span>
+                    <div className='flex sm:hidden flex-col gap-3'>
+                        <p className='text-base lg:text-xl text-white font-medium font-[RobotoSlab]'>STAY UP TO DATE</p>
+                        <span className='flex items-center'>
+                            <input
+                                placeholder='Enter your email'
+                                className='relative bg-secondaryBackground border-1 border-[#A3F3BE] p-2 w-36 sm:w-80'
+                            />
+                            <button className='bg-[#A3F3BE] text-base lg:text-xl font-medium p-2'>SUBMIT</button>
+                        </span>
+                    </div>
+                </span>
 
-                <div className='flex flex-col gap-3'>
+                <div className='hidden sm:flex flex-col gap-3'>
                     <p className='text-base lg:text-xl text-white font-medium font-[RobotoSlab]'>STAY UP TO DATE</p>
                     <span className='flex items-center'>
                         <input

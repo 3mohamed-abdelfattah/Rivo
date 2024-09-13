@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 export const Header = (props) => {
     return (
         <header className='bg-primaryBackground'>
-            <div className='flex justify-between items-center py-14 px-28'>
+            <div className='flex justify-between items-center pb-10 sm:py-14 p-2 lg:px-24'>
 
                 {/* Logo */}
                 <div className='text-primaryText'>
@@ -13,8 +13,8 @@ export const Header = (props) => {
                 </div>
 
                 {/* Navigation */}
-                <div className='hidden lg:contents'>
-                    <ul className='flex text-primaryText flex-row text-base xl:text-xl gap-12 font-medium'>
+                <div className='hidden sm:contents'>
+                    <ul className='flex text-primaryText flex-row text-sm md:text-base lg:text-xl gap-5 lg:gap-10 font-medium'>
                         <Link to='/'>
                             <li className='hover:scale-110 hover:text-white cursor-pointer'>HOME</li>
                         </Link>
@@ -27,8 +27,8 @@ export const Header = (props) => {
                 </div>
 
                 {/* Login & Cart */}
-                <div className='flex flex-row items-center md:gap-14'>
-                    <span className='hover:scale-110 cursor-pointer'>
+                <div className='flex sm:flex-row items-center gap-1 md:gap-5 xl:gap-14'>
+                    <span className='hidden sm:contents hover:scale-110 cursor-pointer'>
                         <CartIcon />
                     </span>
                     <Link to='/login'>
