@@ -98,12 +98,12 @@ export const SignUpPage = () => {
 
             <div className='flex flex-col justify-center items-center gap-20 my-24'>
                 <div className='flex flex-col gap-4 text-center'>
-                    <p className='text-primaryText text-5xl'>Welcome To Rivo!</p>
-                    <p className='text-primaryText text-3xl'>Let's get to know you..</p>
+                    <p className='text-primaryText text-3xl sm:text-5xl'>Welcome To Rivo!</p>
+                    <p className='text-primaryText text-lg sm:text-3xl'>Let's get to know you..</p>
                 </div>
 
                 <form className='flex flex-col gap-10' onSubmit={handleSubmit}>
-                    <div className='flex flex-row gap-4'>
+                    <div className='flex flex-col sm:flex-row gap-4'>
                         <input
                             className={styles.inputStyle}
                             type="text"

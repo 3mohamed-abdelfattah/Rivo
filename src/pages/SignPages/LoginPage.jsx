@@ -87,9 +87,9 @@ export const LoginPage = () => {
         <main>
             <Header value='REGISTER' />
             <div className='flex flex-col justify-center items-center gap-20 my-24'>
-                <p className='text-primaryText text-5xl'>Welcome Back!</p>
+                <p className='text-primaryText text-3xl sm:text-5xl'>Welcome Back!</p>
                 <form className='flex flex-col gap-10' onSubmit={(e) => handleSubmit(e)}>
-                    <div className='flex flex-row gap-4'>
+                    <div className='flex flex-col sm:flex-row gap-4'>
                         <input
                             className={styles.inputStyle}
                             type="text"

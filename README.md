@@ -17,12 +17,20 @@ Explore our curated collection of stylish clothing and accessories tailored to y
 
  <table align="center">
   <tr>
-    <td><img src="" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
-    <td><img src="" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
+    <td><img src="https://github.com/user-attachments/assets/1007735b-ddfc-4c7a-8272-24baec165f7d" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
+    <td><img src="https://github.com/user-attachments/assets/b5c73534-4780-4063-bd46-f6f2b3c44c9a" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/5b287ff9-f733-45d1-ab8b-c6bd6500076c" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
+    <td><img src="https://github.com/user-attachments/assets/426b5eef-7f9b-4091-85cc-ae59897d2568" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/fc0f5243-0172-4708-924a-c15a33fd75ed" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
+    <td><img src="https://github.com/user-attachments/assets/a3b0285d-4835-4085-88ce-6c16f5bba5e4" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
   </tr>
   <tr align='center'>
-    <td><img width='320px' src="" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
-    <td><img width='320px' src="" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
+    <td><img width='320px' src="https://github.com/user-attachments/assets/9c640cc5-e038-447c-9929-7d4afd40f3eb" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
+    <td><img width='320px' src="https://github.com/user-attachments/assets/1c1f740b-14fb-4d6a-8350-ae52e780045f" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
   </tr>
 </table>
 
@@ -80,18 +88,18 @@ Explore our curated collection of stylish clothing and accessories tailored to y
 ## Installation
 
 1. **Clone the repository**:
-   \`\`\`bash
+   ```bash
    git clone https://github.com/3mohamed-abdelfattah/Rivo.git
-   \`\`\`
+   ```
 2. **Install dependencies**:
-   \`\`\`bash
+   ```bash
    cd Rivo
    npm install
-   \`\`\`
+   ```
 3. **Run the development server**:
-   \`\`\`bash
+   ```bash
    npm run dev
-   \`\`\`
+   ```
 
 ## Contributing
 
