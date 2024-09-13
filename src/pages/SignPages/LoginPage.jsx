@@ -91,24 +91,22 @@ export const LoginPage = () => {
                 <form className='flex flex-col gap-10' onSubmit={(e) => handleSubmit(e)}>
                     <div className='flex flex-col sm:flex-row gap-4'>
                         <input
-                            className={styles.inputStyle}
+                            className={`${styles.inputStyle} sm:w-1/3`}
                             type="text"
                             onChange={(e) => { handleData(e); }}
                             value={data.userName}
                             id="userName"
                             required
                             placeholder='@user_name'
-                            size={20}
                         />
                         <input
-                            className={styles.inputStyle}
+                            className={`${styles.inputStyle} sm:w-2/3`}
                             type="password"
                             id="password"
                             onChange={(e) => { handleData(e); }}
                             value={data.password}
                             required
                             placeholder='Password'
-                            size={30}
                         />
                     </div>
                     {(error.errorUserName || error.errorPassword) && (

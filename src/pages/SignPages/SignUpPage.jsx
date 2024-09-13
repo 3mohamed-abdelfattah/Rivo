@@ -105,24 +105,22 @@ export const SignUpPage = () => {
                 <form className='flex flex-col gap-10' onSubmit={handleSubmit}>
                     <div className='flex flex-col sm:flex-row gap-4'>
                         <input
-                            className={styles.inputStyle}
+                            className={`${styles.inputStyle} sm:w-1/3`}
                             type="text"
                             id="userName"
                             value={data.userName}
                             onChange={handleChange}
                             required
                             placeholder='@user_name'
-                            size={20}
                         />
                         <input
-                            className={styles.inputStyle}
+                            className={`${styles.inputStyle} sm:w-2/3`}
                             type="email"
                             id="email"
                             value={data.email}
                             onChange={handleChange}
                             required
                             placeholder='example@mail.com'
-                            size={30}
                         />
                     </div>
                     <input
