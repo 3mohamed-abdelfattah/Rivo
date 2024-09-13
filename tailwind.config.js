@@ -13,7 +13,7 @@ export default {
         secondaryBackground: "#224F34",
       },
       screens: {
-        '2xl': '1536px',
+        '2xl': '1900px',
         'xl': '1250px',
         'lg': '950px',
         'md': '850px',
