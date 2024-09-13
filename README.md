@@ -29,7 +29,7 @@ Explore our curated collection of stylish clothing and accessories tailored to y
     <td><img src="https://github.com/user-attachments/assets/a3b0285d-4835-4085-88ce-6c16f5bba5e4" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
   </tr>
   <tr align='center'>
-    <td><img width='320px' src="https://github.com/user-attachments/assets/28ae6f02-7bdd-4f4d-af8d-02f657be121a" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
+    <td><img src="https://github.com/user-attachments/assets/28ae6f02-7bdd-4f4d-af8d-02f657be121a" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
     <td><img width='320px' src="https://github.com/user-attachments/assets/ba2866ca-0a30-43d2-bc43-95b57ab5742a" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
   </tr>
 </table>
