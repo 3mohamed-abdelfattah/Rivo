@@ -48,7 +48,7 @@ export const Footer = () => {
                         <span className='flex items-center'>
                             <input
                                 placeholder='Enter your email'
-                                className='relative bg-secondaryBackground border-1 border-[#A3F3BE] p-2 w-36 sm:w-80'
+                                className='relative bg-secondaryBackground border border-[#A3F3BE] p-2 w-36 sm:w-80'
                             />
                             <button className='bg-[#A3F3BE] text-base lg:text-xl font-medium p-2'>SUBMIT</button>
                         </span>
