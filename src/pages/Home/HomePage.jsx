@@ -3,9 +3,13 @@ import { Header, HeroSection, BestSell, OurProduct, ForYou, Footer, FeedBack } f
 
 export const HomePage = () => {
 
+    const styles = {
+        sectionStyle: 'flex flex-col md:justify-evenly bg-primaryBackground py-10 md:h-screen',
+    }
+
     return (
         <main>
-            <section className='flex flex-col md:justify-evenly bg-primaryBackground py-10 md:h-screen'>
+            <section className={styles.sectionStyle}>
                 <Header value='LOGIN' />
                 <HeroSection />
             </section>

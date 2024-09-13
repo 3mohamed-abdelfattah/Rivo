@@ -23,8 +23,10 @@ export const ShopPage = () => {
     return (
         <main>
             <Header />
+
             <div className='flex flex-col justify-center items-center gap-16 mt-20'>
                 <p className='text-primaryText text-5xl font-bold font-[RobotoSlab]'>Our Products</p>
+
                 {/* Products */}
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 p-5 m-5'>
                     {products.map((product) => (
@@ -39,6 +41,7 @@ export const ShopPage = () => {
                         </div>
                     ))}
                 </div>
+
             </div>
             <Footer />
         </main>

@@ -4,6 +4,11 @@ import { Link, useNavigate } from 'react-router-dom';
 
 export const LoginPage = () => {
 
+    const styles = {
+        errorStyle: 'text-red-600',
+        inputStyle: 'p-3 border-2 border-secondaryBackground rounded'
+    }
+
     const [data, setData] = useState({
         userName: '',
         password: '',
@@ -86,7 +91,7 @@ export const LoginPage = () => {
                 <form className='flex flex-col gap-10' onSubmit={(e) => handleSubmit(e)}>
                     <div className='flex flex-row gap-4'>
                         <input
-                            className='p-3 border-2 border-secondaryBackground rounded'
+                            className={styles.inputStyle}
                             type="text"
                             onChange={(e) => { handleData(e); }}
                             value={data.userName}
@@ -96,7 +101,7 @@ export const LoginPage = () => {
                             size={20}
                         />
                         <input
-                            className='p-3 border-2 border-secondaryBackground rounded'
+                            className={styles.inputStyle}
                             type="password"
                             id="password"
                             onChange={(e) => { handleData(e); }}
@@ -108,8 +113,8 @@ export const LoginPage = () => {
                     </div>
                     {(error.errorUserName || error.errorPassword) && (
                         <div>
-                            <p className="text-red-600">{error.errorUserName}</p>
-                            <p className="text-red-600">{error.errorPassword}</p>
+                            <p className={styles.errorStyle}>{error.errorUserName}</p>
+                            <p className={styles.errorStyle}>{error.errorPassword}</p>
                         </div>
                     )}
                     <button

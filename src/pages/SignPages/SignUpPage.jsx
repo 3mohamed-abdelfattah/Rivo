@@ -3,6 +3,12 @@ import { Header, Footer } from '@/components';
 import { Link, useNavigate } from 'react-router-dom';
 
 export const SignUpPage = () => {
+
+    const styles = {
+        errorStyle: 'text-red-600',
+        inputStyle: 'p-3 border-2 border-secondaryBackground rounded'
+    }
+
     const [data, setData] = useState({
         userName: '',
         email: '',
@@ -89,15 +95,17 @@ export const SignUpPage = () => {
     return (
         <main>
             <Header value='REGISTER' />
+
             <div className='flex flex-col justify-center items-center gap-20 my-24'>
                 <div className='flex flex-col gap-4 text-center'>
                     <p className='text-primaryText text-5xl'>Welcome To Rivo!</p>
                     <p className='text-primaryText text-3xl'>Let's get to know you..</p>
                 </div>
+
                 <form className='flex flex-col gap-10' onSubmit={handleSubmit}>
                     <div className='flex flex-row gap-4'>
                         <input
-                            className='p-3 border-2 border-secondaryBackground rounded'
+                            className={styles.inputStyle}
                             type="text"
                             id="userName"
                             value={data.userName}
@@ -107,7 +115,7 @@ export const SignUpPage = () => {
                             size={20}
                         />
                         <input
-                            className='p-3 border-2 border-secondaryBackground rounded'
+                            className={styles.inputStyle}
                             type="email"
                             id="email"
                             value={data.email}
@@ -118,7 +126,7 @@ export const SignUpPage = () => {
                         />
                     </div>
                     <input
-                        className='p-3 border-2 border-secondaryBackground rounded'
+                        className={styles.inputStyle}
                         type="password"
                         id="password"
                         value={data.password}
@@ -127,7 +135,7 @@ export const SignUpPage = () => {
                         placeholder='Password'
                     />
                     <input
-                        className='p-3 border-2 border-secondaryBackground rounded'
+                        className={styles.inputStyle}
                         type="password"
                         id="confirmPassword"
                         value={data.confirmPassword}
@@ -149,9 +157,9 @@ export const SignUpPage = () => {
                     </div>
                     {(error.errorUserName || error.errorPassword || error.errorConfirmPassword) && (
                         <div>
-                            <p className="text-red-600">{error.errorUserName}</p>
-                            <p className="text-red-600">{error.errorPassword}</p>
-                            <p className="text-red-600">{error.errorConfirmPassword}</p>
+                            <p className={styles.errorStyle}>{error.errorUserName}</p>
+                            <p className={styles.errorStyle}>{error.errorPassword}</p>
+                            <p className={styles.errorStyle}>{error.errorConfirmPassword}</p>
                         </div>
                     )}
                     <button
@@ -161,12 +169,14 @@ export const SignUpPage = () => {
                         REGISTER →
                     </button>
                 </form>
+
                 <p>Already have an account?
                     <Link className='px-2 text-primaryText font-bold underline' to='/login'>
                         Login
                     </Link>
                 </p>
             </div>
+
             <Footer />
         </main>
     );
