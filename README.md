@@ -1,4 +1,3 @@
-![iPhone-13-PRO-localhost](https://github.com/user-attachments/assets/11a04f04-3de8-4b14-8204-7111bf397e8e)
 # Rivo eCommerce
 
 Welcome to **Rivo eCommerce** - Discover and Find Your Own Fashion! 
