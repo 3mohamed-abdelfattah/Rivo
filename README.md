@@ -1,4 +1,4 @@
-
+![iPhone-13-PRO-localhost](https://github.com/user-attachments/assets/11a04f04-3de8-4b14-8204-7111bf397e8e)
 # Rivo eCommerce
 
 Welcome to **Rivo eCommerce** - Discover and Find Your Own Fashion! 
@@ -17,7 +17,7 @@ Explore our curated collection of stylish clothing and accessories tailored to y
 
  <table align="center">
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/3049788a-d291-454c-8af1-209233f5cee9" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
+    <td><img src="https://github.com/user-attachments/assets/ca49abdc-032f-4d78-8de6-515e611f7b91" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
     <td><img src="https://github.com/user-attachments/assets/b5c73534-4780-4063-bd46-f6f2b3c44c9a" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
   </tr>
   <tr>
@@ -29,8 +29,8 @@ Explore our curated collection of stylish clothing and accessories tailored to y
     <td><img src="https://github.com/user-attachments/assets/a3b0285d-4835-4085-88ce-6c16f5bba5e4" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
   </tr>
   <tr align='center'>
-    <td><img src="https://github.com/user-attachments/assets/28ae6f02-7bdd-4f4d-af8d-02f657be121a" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
-    <td><img width='320px' src="https://github.com/user-attachments/assets/ba2866ca-0a30-43d2-bc43-95b57ab5742a" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
+    <td><img src="https://github.com/user-attachments/assets/b7eb8e43-4f20-40b0-ac46-16d031077ca6" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
+    <td><img width='320px' src="https://github.com/user-attachments/assets/fbe7aea2-e492-4f1d-a80a-d095eb652dd2" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
   </tr>
 </table>
 
