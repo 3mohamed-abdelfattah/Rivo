@@ -33,7 +33,7 @@ export const Header = (props) => {
 
                 {/* Login & Cart */}
                 <div className='flex sm:flex-row items-center gap-1 md:gap-5 xl:gap-14'>
-                    <span className='hidden sm:contents hover:scale-110 cursor-pointer'>
+                    <span className='hidden sm:flex hover:scale-110 cursor-pointer'>
                         <CartIcon />
                     </span>
                     <Link to='/login'>
