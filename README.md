@@ -16,7 +16,7 @@ Explore our curated collection of stylish clothing and accessories tailored to y
 
  <table align="center">
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/ca49abdc-032f-4d78-8de6-515e611f7b91" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
+    <td><img src="https://github.com/user-attachments/assets/b7eb8e43-4f20-40b0-ac46-16d031077ca6" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
     <td><img src="https://github.com/user-attachments/assets/b5c73534-4780-4063-bd46-f6f2b3c44c9a" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
   </tr>
   <tr>
@@ -28,7 +28,7 @@ Explore our curated collection of stylish clothing and accessories tailored to y
     <td><img src="https://github.com/user-attachments/assets/a3b0285d-4835-4085-88ce-6c16f5bba5e4" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
   </tr>
   <tr align='center'>
-    <td><img src="https://github.com/user-attachments/assets/b7eb8e43-4f20-40b0-ac46-16d031077ca6" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
+    <td><img src="https://github.com/user-attachments/assets/ca49abdc-032f-4d78-8de6-515e611f7b91" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
     <td><img width='320px' src="https://github.com/user-attachments/assets/fbe7aea2-e492-4f1d-a80a-d095eb652dd2" alt="Image"  style="border: 5px solid #92E3A9;"/></td>
   </tr>
 </table>
