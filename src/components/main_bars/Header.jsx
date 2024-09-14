@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 export const Header = (props) => {
 
     const styles = {
-        transitionStyle: 'hover:scale-110 hover:text-white cursor-pointer hover:underline hover:decoration-4 hover:underline-offset-8',
+        transitionStyle: 'hover:scale-110 cursor-pointer hover:underline hover:decoration-4 hover:underline-offset-8',
     }
 
     return (
