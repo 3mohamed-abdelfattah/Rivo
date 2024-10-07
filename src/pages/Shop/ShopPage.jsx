@@ -28,7 +28,7 @@ export const ShopPage = () => {
                 <p className='text-primaryText text-5xl font-bold font-[RobotoSlab]'>Our Products</p>
 
                 {/* Products */}
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 p-5 m-5'>
+{/*                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 p-5 m-5'>
                     {products.map((product) => (
                         <div key={product.id} className='flex flex-col m-5 items-center gap-2 hover:scale-105 cursor-pointer shadow-xl rounded'>
                             <img src={product.image} alt={product.title} className='w-full h-64 object-contain' />
@@ -40,7 +40,7 @@ export const ShopPage = () => {
                             </p>
                         </div>
                     ))}
-                </div>
+                </div> */}
 
             </div>
             <Footer />
